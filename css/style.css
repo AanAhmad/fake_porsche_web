@@ -79,6 +79,11 @@
     text-align: center;
   }
 
+  .card-container{
+    width: 30vh;
+    height: 40vh;
+  }
+
   .card-l {
     position: relative;
     top: 0;
@@ -89,6 +94,10 @@
     background-position: center;
     padding: 10px;
     border-radius: 10px;
+  }
+
+  .card-container:hover .card-1{
+    transform: scale(1.4);
   }
 
   .card-l a {
