@@ -79,36 +79,26 @@
     text-align: center;
   }
 
-  .card-container{
-    width: 30vh;
-    height: 40vh;
+  .kontainer {
+    width: 300px;
+    height: 200px; 
+    border-radius: 20px;
+    overflow: hidden; 
+    position: relative; 
   }
-
-  .card-l {
+  
+  .kontainer img {
     position: relative;
-    top: 0;
-    text-decoration: none;
-    height: 40vh;
-    width: 30vh;
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-    border-radius: 10px;
+    top: -50px;
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s; 
   }
-
-  .card-container:hover .card-1{
-    transform: scale(1.4);
+  
+  .kontainer img:hover {
+    transform: scale(1.1); 
   }
-
-  .card-l a {
-    width: 100%;
-    color: white;
-  }
-
-  .card:hover {
-    transition: ease 300ms;
-    transform: scale(1.04);
-  }
+  
 
   h2 {
     font-weight: 700;
